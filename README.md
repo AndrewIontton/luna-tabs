@@ -23,7 +23,7 @@ There are three required data attributes to setup our tabs. `data-luna-tabs` is 
 </div>
 ```
 
-## initialization
+## Initialization
 
 1. Firstly install the LunaTabs package via npm.
 
@@ -31,7 +31,7 @@ There are three required data attributes to setup our tabs. `data-luna-tabs` is 
 npm install luna-tabs
 ```
 
-2. import the class.
+2. Import the class.
 
 ```js
 import LunaTabs from 'luna-tabs';
