@@ -1,0 +1,29 @@
+{
+  "name": "luna-tabs",
+  "version": "0.0.1",
+  "description": "Tab function for 93digital's Luna starter theme",
+  "main": "luna-tabs.js",
+  "scripts": {
+    "dev": "parcel luna-tabs.js",
+    "build": "parcel build luna-tabs.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewIontton/luna-tabs.git"
+  },
+  "keywords": [
+    "luna",
+    "93digital",
+    "tabs",
+    "tab"
+  ],
+  "author": "Andrew Iontton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndrewIontton/luna-tabs/issues"
+  },
+  "homepage": "https://github.com/AndrewIontton/luna-tabs#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
