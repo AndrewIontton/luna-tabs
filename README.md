@@ -49,10 +49,10 @@ allTabs.forEach(tabs => {
 
 // Initialize a specific element.
 const tabs = document.querySelector('[data-luna-tabs]');
-const tabContainer = new LunaToggle(tabs);
+const tabContainer = new LunaTabs(tabs);
 ```
 
-Toggle will apply an `is-active` class to both the tab button and the tab content element.
+LunaTabs will apply an `is-active` class to both the tab button and the tab content element.
 
 A basic reveal for tab content could be as follows:
 
