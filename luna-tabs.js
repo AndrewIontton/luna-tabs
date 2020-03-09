@@ -8,7 +8,7 @@ export default class LunaTabs {
   init() {
     this.setRoles();
     this.resetTabState();
-    this.setFirstTab();
+    this.setActiveTab(this.buttons[0], this.contents[0]);
     this.clickEvents();
     this.keyEvents();
   }
@@ -33,13 +33,6 @@ export default class LunaTabs {
       content.setAttribute('aria-hidden', true);
       content.classList.remove('is-active');
     });
-  }
-  setFirstTab() {
-    this.buttons[0].setAttribute('aria-selected', true);
-    this.buttons[0].classList.add('is-active');
-    this.buttons[0].setAttribute('tabindex', 0);
-    this.contents[0].setAttribute('aria-hidden', false);
-    this.contents[0].classList.add('is-active');
   }
   setActiveTab(button, content) {
     button.setAttribute('aria-selected', true);

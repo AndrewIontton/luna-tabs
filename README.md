@@ -8,16 +8,16 @@ There are three required data attributes to setup our tabs. `data-luna-tabs` is 
 ```html
 <div data-luna-tabs>
 
-  <div class="tab-buttons" aria-label="Tabs">
+  <div class="tab-buttons" aria-label="Tabs" role="tablist">
     <button id="tab-1" type="tab" data-luna-tab="tab-1" aria-controls="panel-1">Tab 1</button>
-    <button id="tab-1" type="tab" data-luna-tab="tab-2" aria-controls="panel-2">Tab 2</button>
-    <button id="tab-1" type="tab" data-luna-tab="tab-3" aria-controls="panel-3">Tab 3</button>
+    <button id="tab-2" type="tab" data-luna-tab="tab-2" aria-controls="panel-2">Tab 2</button>
+    <button id="tab-3" type="tab" data-luna-tab="tab-3" aria-controls="panel-3">Tab 3</button>
   </div>
 
   <div class="tab-container">
     <div id="panel-1" data-luna-tab-target="tab-1" aria-labelledby="tab-1">Tab Content 1</div>
-    <div id="panel-1" data-luna-tab-target="tab-2" aria-labelledby="tab-2">Tab Content 2</div>
-    <div id="panel-1" data-luna-tab-target="tab-3" aria-labelledby="tab-3">Tab Content 3</div>
+    <div id="panel-2" data-luna-tab-target="tab-2" aria-labelledby="tab-2">Tab Content 2</div>
+    <div id="panel-3" data-luna-tab-target="tab-3" aria-labelledby="tab-3">Tab Content 3</div>
   </div>
 
 </div>

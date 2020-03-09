@@ -1,6 +1,6 @@
 {
   "name": "luna-tabs",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Tab function for 93digital's Luna starter theme",
   "main": "luna-tabs.js",
   "scripts": {
